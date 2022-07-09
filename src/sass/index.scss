@@ -1,2 +1,30 @@
 @import './common';
-@import './example';
+@import './base/base';
+@import './base/container';
+@import './base/section';
+
+@import './components/arrow-btn';
+@import './components/backdrop';
+@import './components/contact-form';
+@import './components/logo';
+@import './components/mobile-menu';
+@import './components/modal-btn';
+@import './components/modal-window-cart';
+@import './components/social-links';
+@import './components/suptitle';
+@import './components/title';
+
+@import './layouts/about';
+@import './layouts/advantages';
+@import './layouts/contacts';
+@import './layouts/customer-reviews';
+@import './layouts/footer';
+@import './layouts/gallery';
+@import './layouts/hero-header';
+@import './layouts/products';
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+
+
