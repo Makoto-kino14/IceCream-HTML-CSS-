@@ -57,7 +57,7 @@
   font-size: 16px;
   line-height: 1.31;
   border-radius: 22px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   min-width: 160px;
@@ -138,4 +138,24 @@
     align-items: center;
     margin-left: 128px;
   }
+}
+
+.arrowup-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: var(--accent-color-dark);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px dotted var(--accent-color-dark);
+}
+
+.arrowup-icon {
+  fill: currentColor;
 }
