@@ -1,0 +1,113 @@
+.products__text {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffa5ba;
+}
+.products__head {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+}
+
+.products-list__text {
+  font-family: var(--primary-font-family);
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 152%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+// rose
+
+.products-list__wrapper--rose {
+  background-color: #ffb8ca;
+}
+.products-list__title--rose {
+  position: relative;
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 140px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    height: 280px;
+    width: 280px;
+    background-image: url(../images/products/mobile/home-pic1-mobile.png);
+  }
+}
+
+// brown
+
+.products-list__wrapper--brown {
+  background-color: #f0d1a5;
+}
+
+.products-list__title--brown {
+  position: relative;
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 140px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    height: 280px;
+    width: 280px;
+    background-image: url(../images/products/mobile/home-pic2-mobile.png);
+  }
+}
+// green
+
+.products-list__wrapper--green {
+  background-color: #c2e297;
+}
+
+.products-list__title--green {
+  position: relative;
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 140px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    height: 280px;
+    width: 280px;
+    background-image: url(../images/products/mobile/home-pic3-mobile.png);
+  }
+}
