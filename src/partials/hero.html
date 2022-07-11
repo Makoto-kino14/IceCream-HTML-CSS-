@@ -1,0 +1,101 @@
+<section class="hero">
+  <div class="hero__container">
+    <div class="hero__wrapper">
+      <div class="hero__box">
+        <h1 class="hero__title">
+          ice cream made with <span class="hero__title-span">passion</span>
+        </h1>
+        <ul class="list section-links">
+          <li class="section-links__item">
+            <a class="link section-links__p" href="#products">Products</a>
+          </li>
+          <li class="section-links__item">
+            <a class="link section-links__h" href="#made">How it’s made?</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="list hero__info-list">
+        <li class="hero__info-item">
+          <p class="hero__info"><span class="hero__info-span">16</span>cafes</p>
+        </li>
+        <li class="hero__info-item">
+          <p class="hero__info">
+            <span class="hero__info-span">23</span>food trucks
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="hero__box-a">
+      <p class="hero__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et
+      </p>
+      <button class="hero__info-button" type="button">
+        <svg class="arrow-right-icon" width="6" height="6">
+          <use href="./images/icons.svg#arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="hero__circle"></div>
+    <picture>
+      <source
+        srcset="
+          ./images/hero-desktop/desktop-milk.png    1x,
+          ./images/hero-desktop/desktop-milk@2x.png 2x
+        "
+        media="(min-width: 1280px)" />
+      <source
+        srcset="
+          ./images/hero-tablet/tablet-milk.png    1x,
+          ./images/hero-tablet/tablet-milk@2x.png 2x
+        "
+        media="(min-width: 768px)" />
+      <img
+        class="hero__milk-image"
+        src="./images/hero-tablet/tablet-milk.png"
+        alt="carafe with milk"
+    /></picture>
+    <picture>
+      <source
+        srcset="
+          ./images/hero-desktop/desktop-eis.png    1x,
+          ./images/hero-desktop/desktop-eis@2x.png 2x
+        "
+        media="(min-width: 1280px)" />
+      <source
+        srcset="
+          ./images/hero-tablet/tablet-eis.png    1x,
+          ./images/hero-tablet/tablet-eis@2x.png 2x
+        "
+        media="(min-width: 768px)" />
+      <source
+        srcset="
+          ./images/hero-mobile/hero-eis.png    1x,
+          ./images/hero-mobile/hero-eis@2x.png 2x
+        "
+        media="(max-width: 767px)" />
+      <img
+        class="hero__ice-img"
+        src="./images/hero-mobile/hero-eis.png"
+        alt="Ice"
+    /></picture>
+    <picture>
+      <source
+        srcset="
+          ./images/hero-desktop/desktop-girl.png    1x,
+          ./images/hero-desktop/desktop-girl@2x.png 2x
+        "
+        media="(min-width: 1280px)" />
+      <source
+        srcset="
+          ./images/hero-tablet/tablet-girl.png    1x,
+          ./images/hero-tablet/tablet-girl@2x.png 2x
+        "
+        media="(min-width: 768px)" />
+      <img
+        class="hero__girl-image"
+        src="./images/hero-tablet/tablet-girl.png"
+        alt="Girl with ice"
+    /></picture>
+  </div>
+</section>
