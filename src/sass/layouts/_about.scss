@@ -8,7 +8,7 @@
         }
     @media screen and(min-width:1280px) {
         display: flex;
-        background-image: url(/src/images/about/about_bg_part_1.png), url(/src/images/about/about_bg_part_2.png);
+        background-image: url(/src/images/about/about_bg_part_1_desk.png), url(/src/images/about/about_bg_part_2_desk.png);
         background-repeat: no-repeat;
         background-position: left center, right center;
     }
@@ -120,5 +120,5 @@
 // }
 
 img{
-    max-width: none;
+    min-width: none;
 }
