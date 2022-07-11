@@ -65,6 +65,7 @@
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: url(../images/products-mobile/products-pic1-mobile@2x.png);
+      background-size: contain;
     }
 
     background-repeat: no-repeat;
@@ -122,6 +123,7 @@
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: url(../images/products-mobile/products-pic2-mobile@2x.png);
+      background-size: contain;
     }
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -177,6 +179,7 @@
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: url(../images/products-mobile/products-pic3-mobile@2x.png);
+      background-size: contain;
     }
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -250,6 +253,7 @@
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         background-image: url(../images/products-tablet/products-pic1-tablet@2x.png);
+        background-size: cover;
       }
     }
   }
@@ -262,6 +266,7 @@
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         background-image: url(../images/products-tablet/products-pic2-tablet@2x.png);
+        background-size: cover;
       }
     }
   }
@@ -274,6 +279,7 @@
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         background-image: url(../images/products-tablet/products-pic3-tablet@2x.png);
+        background-size: cover;
       }
     }
   }
@@ -306,6 +312,7 @@
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         background-image: url(../images/products-desktop/products-pic1-desktop@2x.png);
+        background-size: cover;
       }
     }
   }
@@ -332,6 +339,7 @@
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         background-image: url(../images/products-desktop/products-pic3-desktop@2x.png);
+        background-size: cover;
       }
     }
   }
