@@ -33,9 +33,9 @@
     max-width: 180px;
     background-image: repeating-linear-gradient(
         #FAFAFA,
-        #FAFAFA 31px,
-        #E1E1E1 31px,
-        #E1E1E1 32px);
+        #FAFAFA 30px,
+        #E1E1E1 30px,
+        #E1E1E1 31px);
 }
 
 .testimonials {
@@ -61,7 +61,7 @@
     color: var(--primary-text-color-theme-light);
 }
 
-.reviews-text::before {
+.reviews-text::after {
     content: "";
     position: absolute;
     width: 4px;
