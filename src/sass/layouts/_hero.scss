@@ -12,9 +12,11 @@
   margin-left: auto;
   margin-right: auto;
   min-height: 436px;
+  overflow: hidden;
 
   @media screen and (min-width: 480px) {
     max-width: 480px;
+    overflow: visible;
   }
 
   @media screen and (min-width: 768px) {
