@@ -60,12 +60,11 @@
     content: '';
     height: 280px;
     width: 100%;
-    background-image: url(../images/products/mobile/home-pic1-mobile.png);
-
+    background-image: url(../images/products-mobile/products-pic1-mobile.png);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/products/mobile/home-pic1-mobile@2x.png);
+      background-image: url(../images/products-mobile/products-pic1-mobile@2x.png);
     }
 
     background-repeat: no-repeat;
@@ -118,11 +117,11 @@
     content: '';
     height: 280px;
     width: 100%;
-    background-image: url(../images/products/mobile/home-pic2-mobile.png);
+    background-image: url(../images/products-mobile/products-pic2-mobile.png);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/products/mobile/home-pic2-mobile@2x.png);
+      background-image: url(../images/products-mobile/products-pic2-mobile@2x.png);
     }
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -173,11 +172,11 @@
     content: '';
     height: 280px;
     width: 100%;
-    background-image: url(../images/products/mobile/home-pic3-mobile.png);
+    background-image: url(../images/products-mobile/products-pic3-mobile.png);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/products/mobile/home-pic3-mobile@2x.png);
+      background-image: url(../images/products-mobile/products-pic3-mobile@2x.png);
     }
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -201,13 +200,7 @@
 }
 .products-list__btn {
   display: inline-block;
-  background-image: url(../images/products/arrow-right.png);
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(../images/products/arrow-right@2x.png);
-  }
-  background-color: transparent;
+  background-color: #fff;
   border: none;
   display: block;
   width: 40px;
@@ -215,6 +208,7 @@
   margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
+  fill: var(--accent-color-light);
   cursor: pointer;
 }
 
@@ -244,11 +238,11 @@
     margin-top: -32px;
     &::before {
       width: 100%;
-      background-image: url(../images/products/tablet/home-pic1-tablet.png);
+      background-image: url(../images/products-mobile/products-pic1-tablet.png);
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url(../images/products/tablet/home-pic1-tablet@2x.png);
+        background-image: url(../images/products-mobile/products-pic1-tablet@2x.png);
       }
     }
   }
@@ -256,11 +250,11 @@
     margin-top: -32px;
     &::before {
       width: 100%;
-      background-image: url(../images/products/tablet/home-pic2-tablet.png);
+      background-image: url(../images/products-mobile/products-pic2-tablet.png);
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url(../images/products/tablet/home-pic2-tablet@2x.png);
+        background-image: url(../images/products-mobile/products-pic2-tablet@2x.png);
       }
     }
   }
@@ -268,11 +262,11 @@
     margin-top: -32px;
     &::before {
       width: 100%;
-      background-image: url(../images/products/tablet/home-pic3-tablet.png);
+      background-image: url(../images/products-mobile/products-pic3-tablet.png);
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url(../images/products/tablet/home-pic3-tablet@2x.png);
+        background-image: url(../images/products-mobile/products-pic3-tablet@2x.png);
       }
     }
   }
@@ -299,11 +293,11 @@
       &::before {
         height: 394px;
         width: 368px;
-        background-image: url(../images/products/desktop/home-pic1.png);
+        background-image: url(../images/products-mobile/products-pic1-desktop.png);
         @media (min-device-pixel-ratio: 2),
           (min-resolution: 192dpi),
           (min-resolution: 2dppx) {
-          background-image: url(../images/products/desktop/home-pic1@2x.png);
+          background-image: url(../images/products-mobile/products-pic1-desktop@2x.png);
         }
       }
     }
@@ -312,11 +306,11 @@
       &::before {
         width: 368px;
         height: 394px;
-        background-image: url(../images/products/desktop/home-pic2.png);
+        background-image: url(../images/products-mobile/products-pic2-desktop.png);
         @media (min-device-pixel-ratio: 2),
           (min-resolution: 192dpi),
           (min-resolution: 2dppx) {
-          background-image: url(../images/products/desktop/home-pic2@2x.png);
+          background-image: url(../images/products-mobile/products-pic2-desktop@2x.png);
         }
       }
     }
@@ -325,11 +319,11 @@
       &::before {
         width: 368px;
         height: 394px;
-        background-image: url(../images/products/desktop/home-pic3.png);
+        background-image: url(../images/products-mobile/products-pic3-desktop.png);
         @media (min-device-pixel-ratio: 2),
           (min-resolution: 192dpi),
           (min-resolution: 2dppx) {
-          background-image: url(../images/products/desktop/home-pic3@2x.png);
+          background-image: url(../images/products-mobile/products-pic3-desktop@2x.png);
         }
       }
     }
