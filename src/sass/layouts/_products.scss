@@ -250,7 +250,7 @@
     &::before {
       height: 294px;
       width: 100%;
-      background-size: contain;
+      background-size: cover;
       background-image: url(../images/products-tablet/products-pic1-tablet.png);
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -263,7 +263,7 @@
     margin-top: -32px;
     &::before {
       width: 100%;
-      background-size: contain;
+      background-size: cover;
       background-image: url(../images/products-tablet/products-pic2-tablet.png);
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -276,7 +276,7 @@
     margin-top: -32px;
     &::before {
       width: 100%;
-      background-size: contain;
+      background-size: cover;
       background-image: url(../images/products-tablet/products-pic3-tablet.png);
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -308,7 +308,7 @@
       &::before {
         height: 394px;
         width: 100%;
-        background-size: contain;
+        background-size: cover;
         background-image: url(../images/products-desktop/products-pic1-desktop.png);
         @media (min-device-pixel-ratio: 2),
           (min-resolution: 192dpi),
@@ -322,7 +322,7 @@
       &::before {
         width: 100%;
         height: 394px;
-        background-size: contain;
+        background-size: cover;
         background-image: url(../images/products-desktop/products-pic2-desktop.png);
         @media (min-device-pixel-ratio: 2),
           (min-resolution: 192dpi),
@@ -336,7 +336,7 @@
       &::before {
         width: 100%;
         height: 394px;
-        background-size: contain;
+        background-size: cover;
         background-image: url(../images/products-desktop/products-pic3-desktop.png);
         @media (min-device-pixel-ratio: 2),
           (min-resolution: 192dpi),
