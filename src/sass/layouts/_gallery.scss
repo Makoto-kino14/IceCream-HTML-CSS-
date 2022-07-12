@@ -124,13 +124,13 @@
 
 @media screen and(min-width: 1280px) {
   .gallery__column {
-    flex-basis: calc((100% - 7 * 8px) / 7);
+  flex-basis: auto;
     margin-left: 4px;
     margin-right: 4px;
   }
 
   .gallery__column.big-img {
-    flex-basis: calc((100% - 7 * 8px) / 7 * 2);
+    flex-basis: auto;;
   }
 
   .gallery__column.column-first {
