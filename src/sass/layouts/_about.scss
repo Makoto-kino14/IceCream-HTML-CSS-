@@ -1,17 +1,22 @@
 .about{
     background-color: #FFF5F6;
     padding-top: 60px;
+    @media screen and(min-width:1280px) {
+            background-image: url(/src/images/desktop/about_desk/about_bg_part_1_desk.png), url(/src/images/desktop/about_desk/about_bg_part_2_desk.png);
+            background-repeat: no-repeat;
+            background-position: left, right;
+            background-size: auto;
+    
+        }
 }
 .about__container{
     @media screen and(min-width:768px) and(max-width:1279px) {
             display: flex;
         }
-    @media screen and(min-width:1280px) {
-        display: flex;
-        background-image: url(/src/images/desktop/about_desk/about_bg_part_1_desk.png), url(/src/images/desktop/about_desk/about_bg_part_2_desk.png);
-        background-repeat: no-repeat;
-        background-position: left center, right center;
-    }
+    @media screen and(min-width:1280px){
+            display: flex;
+        }
+    
     
 }
 
