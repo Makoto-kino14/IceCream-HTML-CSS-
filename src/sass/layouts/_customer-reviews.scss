@@ -148,11 +148,13 @@
         margin-bottom: 32px;
     }
 
-    // .reviews-text::before {
-    //     content: '';
-    //     background-image: url('../images/icons.svg#icon-quotation-mark');
-    //     background-repeat: no-repeat;
-    // }
+    .reviews-text::before {
+        content: '';
+        background-image: url('../images/icons.svg#icon-quotation-mark');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #E1E1E1;
+    }
 
     .reviews-text {
         padding-bottom: 26px;
