@@ -150,10 +150,11 @@
 
     .reviews-text::before {
         content: '';
-        background-image: url('../images/icons.svg#icon-quotation-mark');
+        width: 54px;
+        height: 40px;
+        background: url('../images/icons-quotation-mark.svg');
         background-repeat: no-repeat;
-        background-position: center;
-        background-color: #E1E1E1;
+        background-color: tomato;
     }
 
     .reviews-text {
