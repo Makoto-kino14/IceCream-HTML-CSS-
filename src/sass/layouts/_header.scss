@@ -30,10 +30,6 @@
   align-items: center;
 }
 
-.header__buttons-item:first-child {
-  margin-right: 32px;
-}
-
 .mobile-menu__burger-button {
   position: relative;
   z-index: 50;
@@ -49,6 +45,10 @@
   &:focus {
     color: #ffffff;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    margin-right: 32px;
+  }
 }
 
 .burger-icon {
@@ -56,8 +56,8 @@
 }
 
 .header__order-button {
-  position:relative;
-  z-index:50;
+  position: relative;
+  z-index: 50;
   border: none;
   cursor: pointer;
   background-color: #ffffff;
