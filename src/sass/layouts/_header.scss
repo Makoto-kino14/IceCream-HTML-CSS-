@@ -56,6 +56,8 @@
 }
 
 .header__order-button {
+  position:relative;
+  z-index:50;
   border: none;
   cursor: pointer;
   background-color: #ffffff;

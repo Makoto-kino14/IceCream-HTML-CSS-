@@ -2,18 +2,17 @@
 .advantages__background {
   background-color: #fff5f6;
   background-size: 100%;
+  
 
-  @media screen and (max-width:1279px) {
+  @media screen and (max-width: 1279px) {
     padding-top: 0;
   }
-
 }
 .advantages__section {
   overflow-x: hidden;
   padding-left: 20px;
   padding-right: 70px;
   padding-bottom: 0px;
-  margin-top: 40px;
 
   @media screen and (min-width: 768px) {
     padding-left: 32px;
