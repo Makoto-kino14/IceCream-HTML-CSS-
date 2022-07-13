@@ -1,5 +1,6 @@
 .gallery {
   padding-bottom: 0;
+  padding-top: 0;
   background-image: linear-gradient(#fff5f6 56%, #ffffff 56%);
 
   @media screen and(min-width: 768px) {
@@ -109,6 +110,11 @@
 }
 
 @media screen and(min-width: 1280px) {
+  .gallery {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
   .gallery__column {
     flex-basis: auto;
     margin-left: 4px;
