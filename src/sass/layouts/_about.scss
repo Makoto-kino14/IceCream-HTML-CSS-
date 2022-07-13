@@ -3,7 +3,7 @@
     background-image: url(/src/images/mobile/about_mob/about_bg_part1_mob.png),
             url(/src/images/mobile/about_mob/about_bg_part2_mob.png);
         background-repeat: no-repeat;
-        background-position: left bottom 200px, right bottom 200px;
+        background-position: left bottom 220px, right bottom 220px;
 
     @media screen and(max-width:767px) {
         padding-bottom: 40px;
@@ -60,12 +60,16 @@
     font-size: 12px;
     line-height: 162%;
     color: #907E82;
-    
+    @media screen and(max-width:767px){
+        &:not(:first-child){
+         margin-bottom: 20px;
+        }
+    }
     @media screen and(min-width:768px) and(max-width:1280px) {
         line-height: 176%;
         font-size: 14px;
         margin-right: 0px;
-        }
+    }
     @media screen and(min-width:1280px) {
         font-size: 14px;
         line-height: 194%;
