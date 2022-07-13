@@ -1,6 +1,5 @@
 // Contacts
 .contacts {
-  position: relative;
   @media screen and (max-width: 767px) {
     padding-top: 60px;
     padding-bottom: 40px;
@@ -15,24 +14,15 @@
   }
 }
 .contacts__background {
-  position: absolute;
-  z-index: -100;
-  left: 0;
-  width: 100%;
-  bottom: 0;
-  right: 0;
-  background: #fff5f6;
-
-  @media screen and (max-width: 767px) {
-    top: 362px;
+  background-image: linear-gradient(#ffffff 24%, #fff5f6 24%);
+  @media screen and(min-width: 768px) {
+    background-image: linear-gradient(#ffffff 50%, #fff5f6 50%);
   }
-  @media screen and (min-width: 768px) and (max-width: 1280px) {
-    top: 378px;
-  }
-  @media screen and (min-width: 1280px) {
-    top: 219px;
+  @media screen and(min-width: 1280px) {
+    background-image: linear-gradient(#ffffff 19%, #fff5f6 19%);
   }
 }
+
 .contacts__list {
   @media screen and (max-width: 767px) {
     display: block;
@@ -69,7 +59,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.86;
-  display: flex;
+  display: inline-block;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
