@@ -60,6 +60,8 @@ footer {
   position: relative;
   display: block;
   text-align: center;
+  max-width: 150px;
+
   font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 14px;
@@ -67,18 +69,19 @@ footer {
   color: #907e82;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 65px;
-  padding-right: 65px;
+  margin: 0 auto;
+  // padding-left: 65px;
+  // padding-right: 65px;
 }
 
 .footer-line::after {
   display: block;
   content: '';
-
+  background-color: #e1e1e1;
   width: 100%;
   position: relative;
   border: 1px solid #e1e1e1;
-  bottom: 61px;
+  bottom: 58px;
 }
 
 @media screen and (min-width: 768px) {
@@ -124,6 +127,7 @@ footer {
     line-height: 1.5;
     text-align: center;
     color: #907e82;
+    max-width: 278px;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -184,6 +188,6 @@ footer {
   }
 
   .footer-line::after {
-    bottom: 37px;
+    bottom: 50px;
   }
 }
