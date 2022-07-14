@@ -74,7 +74,10 @@
 }
 
 .customer-reviews__wrapper {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // text-align: center;
 }
 
 .reviews-text__wrapper {
@@ -138,9 +141,8 @@
     }
 
     .reviews-text__wrapper {
-        margin-left: auto;
-        margin-right: auto;
         max-width: 440px;
+        padding-top: 43px;
         padding-right: 50px;
         padding-left: 50px;
         margin-top: 75px;
@@ -201,13 +203,14 @@
     }
 
     .reviews-text__wrapper {
+        width: 620px;
         margin-top: 57px;
         margin-bottom: 24px;
         padding-top: 0;
     }
 
     .text-underline {
-        max-width: 608px;
+        width: 608px;
         position: relative;
         z-index: 1;
     }
@@ -263,13 +266,14 @@
     }
 
     .reviews-text__wrapper {
+        width: 968px;
         margin-top: 63px;
         margin-bottom: 36px;
         padding-top: 0px;
     }
 
     .text-underline {
-        max-width: 822px;
+        width: 822px;
     }
 
     .testimonials {
